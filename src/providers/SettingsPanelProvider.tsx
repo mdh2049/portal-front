@@ -33,7 +33,7 @@ const SettingsPanelProvider = ({ children }: PropsWithChildren) => {
 
   const [settingsPanelConfig, setSettingsPanelConfig] =
     useState<SettingsPanelConfig>({
-      showSettingPanelButton: true,
+      showSettingPanelButton: false,
       openSettingPanel: false,
       disableNavigationType: false,
       disableVerticalNavbarAppearance: false,
