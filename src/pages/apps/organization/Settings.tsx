@@ -1,10 +1,10 @@
-import Button from 'components/base/Button';
-import SocialProfileCard from 'components/cards/SocialProfileCard';
-import SettingsChangePassword from 'components/forms/SettingsChangePassword';
-import SettingsCompanyInfo from 'components/forms/SettingsCompanyInfo';
-import SettingsPersonalInfo from 'components/forms/SettingsPersonalInfo';
-import SettingsSocial from 'components/forms/SettingsSocial';
-import SocialSettingsSideBar from 'components/modules/social/SocialSettingsSideBar';
+import Button from 'components/base/Button.tsx';
+import SocialProfileCard from 'components/cards/SocialProfileCard.tsx';
+import SettingsChangePassword from 'components/forms/SettingsChangePassword.tsx';
+import SettingsCompanyInfo from 'components/forms/SettingsCompanyInfo.tsx';
+import SettingsPersonalInfo from 'components/forms/SettingsPersonalInfo.tsx';
+import SettingsSocial from 'components/forms/SettingsSocial.tsx';
+import SocialSettingsSideBar from 'components/modules/social/SocialSettingsSideBar.tsx';
 import { Col, Row } from 'react-bootstrap';
 import profileImage from 'assets/img/team/20.webp';
 

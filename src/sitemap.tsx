@@ -35,17 +35,17 @@ export const routes: RouteItems[] = [
     active: true,
     pages: [
       {
-        name: 'settings',
-        icon: 'share-2',
-        path: '/apps/social/settings',
-        pathName: 'settings',
-        active: true,
-      },
-      {
         name: 'members',
         icon: 'users',
-        path: '/pages/members',
-        pathName: 'members-page',
+        path: '/apps/organization/members',
+        pathName: 'organization-members',
+        active: true
+      },
+      {
+        name: 'settings',
+        icon: 'settings',
+        path: '/apps/organization/settings',
+        pathName: 'organization-settings',
         active: true
       }
     ]

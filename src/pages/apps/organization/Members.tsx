@@ -1,17 +1,17 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import Button from 'components/base/Button';
-import PageBreadcrumb from 'components/common/PageBreadcrumb';
-import SearchBox from 'components/common/SearchBox';
-import useAdvanceTable from 'hooks/useAdvanceTable';
-import AdvanceTableProvider from 'providers/AdvanceTableProvider';
+import Button from 'components/base/Button.tsx';
+import PageBreadcrumb from 'components/common/PageBreadcrumb.tsx';
+import SearchBox from 'components/common/SearchBox.tsx';
+import useAdvanceTable from 'hooks/useAdvanceTable.tsx';
+import AdvanceTableProvider from 'providers/AdvanceTableProvider.tsx';
 import { ChangeEvent, useState } from 'react';
 import { Col, Row } from 'react-bootstrap';
-import { memberBreadcrumbItems, members } from 'data/members';
+import { memberBreadcrumbItems, members } from 'data/members.ts';
 import MembersTable, {
   membersTablecolumns
-} from 'components/tables/MembersTable';
+} from 'components/tables/MembersTable.tsx';
 import { faFileExport, faPlus } from '@fortawesome/free-solid-svg-icons';
-import MembersSidebar from 'components/modules/members/sidebar/MembersSidebar';
+import MembersSidebar from 'components/modules/members/sidebar/MembersSidebar.tsx';
 
 const Members = () => {
   const [, setOpenOffcanvas] = useState(false);
