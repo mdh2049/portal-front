@@ -22,7 +22,7 @@ const MembersSidebar = ({ setOpenOffcanvas }: MembersSidebarProps) => {
         </Button>
       </div>
       <TreeView />
-      <StorageDetails />
+      {/*<StorageDetails />*/}
     </div>
   );
 };
