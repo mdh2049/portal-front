@@ -11,7 +11,7 @@ import MembersTable, {
   membersTablecolumns
 } from 'components/tables/MembersTable';
 import { faFileExport, faPlus } from '@fortawesome/free-solid-svg-icons';
-import Sidebar from 'components/modules/file-manager/sidebar/Sidebar';
+import MembersSidebar from 'components/modules/members/sidebar/MembersSidebar';
 
 const Members = () => {
   const [, setOpenOffcanvas] = useState(false);
@@ -39,7 +39,7 @@ const Members = () => {
             xs="auto"
             className="file-manager-sidebar-wrapper d-none d-lg-block"
           >
-            <Sidebar setOpenOffcanvas={setOpenOffcanvas} />
+            <MembersSidebar setOpenOffcanvas={setOpenOffcanvas} />
           </Col>
           <Col>
             <AdvanceTableProvider {...table}>
